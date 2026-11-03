@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "device": "EP4CE10F17C8",
+  "threshold": 128,
+  "binary_mode": 1,
+  "center_to_result_clocks": 1060,
+  "pixel_clock_hz": 33000000,
+  "simulation": {
+    "full_frames": 4,
+    "display_pixels": 1536000,
+    "window_checks": 1525776,
+    "row_checks": 1529600,
+    "binary_and_magnitude": "pixel exact",
+    "fault_clocks": 218804,
+    "reset_recovery": "PASS",
+    "errors": 0,
+    "warnings": 0,
+    "input_model": "deterministic show-ahead producer; not full camera/SDRAM electrical simulation",
+    "threshold_equal_cases": 1759
+  },
+  "quartus": {
+    "errors": 0,
+    "warnings": 50,
+    "version": "13.0.0 Build 156",
+    "logic_elements": 1374,
+    "registers": 751,
+    "ram_bits": 58594,
+    "embedded_multipliers": 0,
+    "tft_domain_auto_constraint_setup_slack_ns": 14.751,
+    "timing_closed": false
+  },
+  "sof": "D:\\gx2026\\project\\camera_sdram_tft_sobel\\output_files\\ov5640_sdram_hdmi_tft.sof",
+  "sof_sha256": "E9CE4608DADB90E520C27321335F1AFBBE8DA44D7B2DB0A57B7D6D08CD17E6FE",
+  "sof_bytes": 358676,
+  "unchanged_baselines": [
+    "gray",
+    "color"
+  ],
+  "modified_existing_files": [
+    "rtl\\ov5640_sdram_hdmi_tft.v",
+    "ov5640_sdram_hdmi_tft.qsf"
+  ],
+  "hardware": {
+    "jtag_detected": true,
+    "downloaded": true,
+    "screen_verified": false,
+    "downloaded_at": "2026-11-02 14:35:12",
+    "download_log": "verification\\sobel\\download_20261102_143510.log"
+  }
+}

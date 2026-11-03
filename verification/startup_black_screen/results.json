@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "old_code_black_at_threshold_zero": "reproduced",
+  "startup_test_pixels": 768000,
+  "white_pixels": 635424,
+  "video_regression_pixels": 1536000,
+  "new_sof_sha256": "7D67C82FC50C8726F6B4A480712A7501BC8C941517303EE1E5E4FC4E56E499EA",
+  "downloaded": true,
+  "timing_closed": false,
+  "quartus_errors": 0,
+  "quartus_warnings": 50,
+  "modified_production_files": [
+    "rtl/ov5640_sdram_hdmi_tft.v",
+    "rtl/image_process/sobel_video_pipeline.v"
+  ],
+  "gray_baseline_unchanged": true,
+  "downloaded_at": "2026-11-02 15:34:19",
+  "download_log": "verification\\sobel\\download_20261102_153417.log",
+  "screen_verified": false
+}

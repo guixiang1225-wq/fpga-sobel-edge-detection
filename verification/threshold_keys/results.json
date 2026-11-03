@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "modified_existing_files": [
+    "rtl\\ov5640_sdram_hdmi_tft.v",
+    "rtl\\image_process\\sobel_filter.v",
+    "rtl\\image_process\\sobel_video_pipeline.v",
+    "ov5640_sdram_hdmi_tft.qsf"
+  ],
+  "up_pulses": 304,
+  "down_pulses": 302,
+  "debounce_test_cycles": 8,
+  "hardware_debounce_cycles": 660000,
+  "video_pixels": 1536000,
+  "build_log": "verification\\sobel\\compile_20261102_150459.log",
+  "errors": 0,
+  "warnings": 50,
+  "pins": {
+    "M16": "key_up_n",
+    "E15": "key_down_n"
+  },
+  "sof_sha256": "8CA4C99EFB2C56DD65A7579ABB9595A0D63C68AC48CED8A04B34962083B5CC23",
+  "downloaded": true,
+  "download_log": "verification\\threshold_keys\\download_20261102_151226.log"
+}

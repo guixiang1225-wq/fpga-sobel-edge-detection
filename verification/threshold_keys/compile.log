@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 15:04:47 on Nov 02,2026
+vlog -sv ../../rtl/image_process/button_press_pulse.v ../../rtl/image_process/sobel_threshold_keys.v ../../rtl/image_process/sobel_filter.v tb_threshold_keys.sv 
+-- Compiling module button_press_pulse
+-- Compiling module sobel_threshold_keys
+-- Compiling module sobel_filter
+-- Compiling module tb_threshold_keys
+
+Top level modules:
+	tb_threshold_keys
+End time: 15:04:47 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

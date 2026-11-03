@@ -1,0 +1,9 @@
+# Add this QIP to the Quartus project to include the complete two-port controller.
+set_global_assignment -name SEARCH_PATH $::quartus(qip_path)
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) Sdram_Control_2Port.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) control_interface_2port.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) command_2port.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) sdr_data_path_2port.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) Sdram_WR_FIFO_2Port.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) Sdram_RD_FIFO_2Port.v]
+set_global_assignment -name VERILOG_INCLUDE_FILE [file join $::quartus(qip_path) Sdram_2Port_Params.h]

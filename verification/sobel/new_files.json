@@ -1,0 +1,9 @@
+[
+  "rtl/image_process/tft_timing_gen.v",
+  "ip/gray_line_shift.v",
+  "ip/gray_line_shift.qip",
+  "rtl/image_process/gray_line_buffer.v",
+  "rtl/image_process/sobel_filter.v",
+  "rtl/image_process/video_output_align.v",
+  "rtl/image_process/sobel_video_pipeline.v"
+]

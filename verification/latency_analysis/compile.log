@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 18:42:37 on Oct 29,2026
+vlog -sv altshift_taps_model.v tb_latency.sv 
+-- Compiling module altshift_taps
+-- Compiling module tb_latency
+
+Top level modules:
+	tb_latency
+End time: 18:42:37 on Oct 29,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

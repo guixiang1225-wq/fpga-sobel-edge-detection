@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "date": "2026-11-02",
+  "device": "EP4CE10F17C8",
+  "threshold": 128,
+  "binary_mode": 1,
+  "center_to_result_clocks": 1060,
+  "pixel_clock_hz": 33000000,
+  "simulation": {
+    "full_frames": 4,
+    "display_pixels": 1536000,
+    "window_checks": 1525776,
+    "row_checks": 1529600,
+    "binary_and_magnitude": "pixel exact",
+    "fault_clocks": 218804,
+    "reset_recovery": "PASS",
+    "errors": 0,
+    "warnings": 0,
+    "input_model": "deterministic show-ahead producer; not full camera/SDRAM electrical simulation",
+    "threshold_equal_cases": 1759
+  },
+  "quartus": {
+    "errors": 0,
+    "warnings": 50,
+    "version": "13.0.0 Build 156",
+    "logic_elements": 1489,
+    "registers": 819,
+    "ram_bits": 58594,
+    "embedded_multipliers": 0,
+    "timing_closed": false,
+    "latest_build_log": "verification\\sobel\\compile_20261102_150459.log"
+  },
+  "sof": "D:\\gx2026\\project\\camera_sdram_tft_sobel\\output_files\\ov5640_sdram_hdmi_tft.sof",
+  "sof_sha256": "8CA4C99EFB2C56DD65A7579ABB9595A0D63C68AC48CED8A04B34962083B5CC23",
+  "sof_bytes": 358676,
+  "unchanged_baselines": [
+    "gray",
+    "color"
+  ],
+  "modified_existing_files": [
+    "rtl\\ov5640_sdram_hdmi_tft.v",
+    "ov5640_sdram_hdmi_tft.qsf"
+  ],
+  "hardware": {
+    "jtag_detected": true,
+    "downloaded": true,
+    "screen_verified": false,
+    "previous_bitstream_sha256": "E9CE4608DADB90E520C27321335F1AFBBE8DA44D7B2DB0A57B7D6D08CD17E6FE",
+    "note": "Current key-enabled bitstream configured; screen and keys await user confirmation",
+    "downloaded_at": "2026-11-02 15:12:28",
+    "download_log": "verification\\threshold_keys\\download_20261102_151226.log"
+  },
+  "threshold_control": {
+    "initial": 128,
+    "step": 8,
+    "minimum": 0,
+    "maximum": 2040,
+    "up_port": "key_up_n",
+    "up_pin": "M16",
+    "down_port": "key_down_n",
+    "down_pin": "E15",
+    "active_low": true,
+    "debounce_cycles": 660000,
+    "debounce_ms": 20,
+    "long_press_repeat": false,
+    "simultaneous_pulses": "cancel",
+    "apply": "next raw frame_prepare",
+    "clock_domain": "clk_tft",
+    "unit_test": "PASS",
+    "video_regression": "PASS"
+  }
+}

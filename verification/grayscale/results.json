@@ -1,0 +1,28 @@
+{
+  "source_unchanged": true,
+  "source_files_checked": 43,
+  "modified_existing_files": [
+    "ov5640_sdram_hdmi_tft.qsf",
+    "rtl\\ov5640_sdram_hdmi_tft.v"
+  ],
+  "quartus": "13.0.0 Build 156",
+  "full_compile": "PASS",
+  "errors": 0,
+  "warnings": 50,
+  "license_error": false,
+  "device": "EP4CE10F17C8",
+  "modelsim": "SE-64 2020.4",
+  "rgb565_inputs_tested": 65536,
+  "max_bt601_rounding_error": 1,
+  "logic_elements": 1015,
+  "registers": 622,
+  "memory_bits": 22528,
+  "sof": "D:\\gx2026\\project\\camera_sdram_tft_gray\\output_files\\ov5640_sdram_hdmi_tft.sof",
+  "sof_bytes": 358676,
+  "sof_sha256": "4FA71B8F26FE94A9621959C3252583C18F0E20BA3F6AF8C1327A03177E1C01D7",
+  "board_tested": false,
+  "timing_closed": false,
+  "programmed": true,
+  "programmed_at": "2026-10-29 10:56:08 Asia/Shanghai",
+  "programmer_log": "verification/quartus/download_20261029_105606.log"
+}

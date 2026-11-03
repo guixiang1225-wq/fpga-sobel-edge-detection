@@ -1,0 +1,30 @@
+[
+  {
+    "frame": 0,
+    "white_edges": 0,
+    "threshold_equal": 0,
+    "negative_gx": 0,
+    "negative_gy": 0
+  },
+  {
+    "frame": 1,
+    "white_edges": 8604,
+    "threshold_equal": 0,
+    "negative_gx": 3824,
+    "negative_gy": 0
+  },
+  {
+    "frame": 2,
+    "white_edges": 14364,
+    "threshold_equal": 0,
+    "negative_gx": 0,
+    "negative_gy": 6384
+  },
+  {
+    "frame": 3,
+    "white_edges": 317712,
+    "threshold_equal": 1759,
+    "negative_gx": 189624,
+    "negative_gy": 188618
+  }
+]

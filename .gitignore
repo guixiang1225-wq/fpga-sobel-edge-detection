@@ -1,0 +1,40 @@
+# ===== Quartus 编译产物（可重新生成，不入库）=====
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+*.qws
+*.qdf
+*.sof
+*.pof
+*.jdi
+*.done
+*.rpt
+PLLJ_PLLSPE_INFO.txt
+
+# ===== ModelSim 仿真产物（库文件、波形、激励）=====
+verification/**/work/
+verification/**/_lib*
+verification/**/*.qpg
+verification/**/*.qtl
+verification/**/*.qdb
+verification/**/*.sof
+verification/**/*.wlf
+verification/**/*.vstf
+verification/**/transcript
+verification/**/*.hex
+
+# ===== 系统与编辑器 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.bak
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# 说明：
+# 入库的是源码与设计输入 —— rtl/ ip/ *.qpf *.qsf *.qip docs/ scripts/
+# 以及 verification/ 下的脚本(.do/.ps1/.py)与结果记录(.log/.json/.md)
+# *.hex 是仿真激励与黄金向量（32MB），由脚本生成，故排除
